@@ -2,8 +2,8 @@
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="xxxx",
-    base_url=""  # 指向DeepSeek
+    api_key="sk-1f3917efd0e0415a973a31ff060ed543",
+    base_url="https://api.deepseek.com"  # 指向DeepSeek
 )
 
 messages = [
