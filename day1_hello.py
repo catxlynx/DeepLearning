@@ -3,7 +3,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="xxxx",
-    base_url=""  # 指向DeepSeek
+    base_url="https://api.deepseek.com"  # 指向DeepSeek
 )
 
 messages = [
